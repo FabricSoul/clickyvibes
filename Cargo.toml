@@ -1,0 +1,11 @@
+[package]
+name = "clii"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+rdev = "0.5.3"
+rodio = "0.19.0"
+serde = { version = "1.0.204", features = ["derive"] }
+toml = "0.8.15"
+crossbeam-channel = "0.5.13"
