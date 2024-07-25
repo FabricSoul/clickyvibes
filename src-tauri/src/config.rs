@@ -21,3 +21,7 @@ impl SoundPackConfig {
         Ok(config)
     }
 }
+
+// pb fn load_app_config() -> Result<str, Box<dyn std::error::Error> >{
+// check if the config exists in $home/.config/clickyvibes/config.toml
+// }
